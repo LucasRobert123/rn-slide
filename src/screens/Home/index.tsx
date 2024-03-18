@@ -15,7 +15,6 @@ export function Home() {
   });
 
   const indexChanged = useRef((info: ChangeImageProps) => {
-    console.log(info.viewableItems[0]);
     const index = info.viewableItems[0].index!;
     setCardIndex(index);
   });
